@@ -1,3 +1,2 @@
-FROM ubuntu:quantal
+FROM centos:7.0
 MAINTAINER Andrew Cathrow andrew@cathrow.com
-ADD index.html /usr/share/nginx/html/
