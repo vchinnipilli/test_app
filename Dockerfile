@@ -1,4 +1,4 @@
-FROM centos:7.2.1511
+FROM centos:latest
 MAINTAINER Andrew Cathrow andrewc@anchore.com
 #RUN yum install -y httpd && yum clean all
 ADD index.html /var/www/html/
