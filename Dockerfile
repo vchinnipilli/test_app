@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM docker.io/acathrow/aic-centos:latest
 MAINTAINER Andrew Cathrow andrewc@anchore.com
 RUN yum install -y httpd && yum clean all
 ADD index.html /var/www/html/
