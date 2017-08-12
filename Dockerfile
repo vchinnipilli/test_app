@@ -1,6 +1,7 @@
-FROM docker.io/acathrow/aic-centos:latest
-#FROM centos:7.2.1511
+FROM alpine:latest
 MAINTAINER Andrew Cathrow andrewc@anchore.com
-RUN yum install -y httpd && yum clean all
-ADD index.html /var/www/html/
+RUN apk add --no-cache \
+	ca-certificates \
+	nghttp2 \
+
 EXPOSE 80 443
