@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM centos:latest
 MAINTAINER vasant
 #RUN apk add --no-cache \
 #	ca-certificates \
